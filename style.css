@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "norse";
+    src: url("./assets/Norse-Bold.otf");
+}
+
+body {
+    background-image: url("/assets/bg2.jpg");
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero {
+    width: 30vw;
+    height: 100vh;
+    position: relative;
+}
+
+.hero .content{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero .text {
+    font-family: "norse";
+    color: white;
+    font-size: 70px;
+}
+
+.main-container {
+    height: 100vh;
+    width: 70vw;
+    background-color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.description {
+    padding: 100px 50px 0 50px;
+}
+
+.first {
+    margin-bottom: 0;
+}
+
+.second {
+    margin-top: 0;
+}
+
+.form-container {
+    margin-top: 38px;
+    height: 38vh;
+    padding: 0 50px 0 50px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2)
+}
+
+.legend {
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.row {
+    display: flex;
+    gap: 5vw;
+}
+
+.row label {
+    color:rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.row input {
+    padding: 5px;
+}
+
+.row input.error {
+    border: 1px solid red;
+    border-radius: 2px;
+    /* box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2); */
+}
+
+.row input:focus-visible {
+    outline: none;
+    border: 1px solid blue;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+span.error {
+    color: red;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.bottom-container {
+    margin-top: 30px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.create-acc-btn {
+    background-color: #596D48;
+    font-weight: bold;
+    color: white;
+    height: 40px;
+    width: 15vw;
+    border-radius: 5px;
+    border: none;
+}
+
+.bottom-container p {
+    font-weight: 100;
+}
+
+.bottom-container p a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 600;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    </link>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="content">
+            <img src="./assets/odin-lined.png" width="70" />
+            <p class="text">Odin</p>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="description">
+            <p class="first">This is not real online service! You know you need something like this
+                in your life to help you realize your deepest drems.
+            </p>
+            <p class="second">Sign up <em>now</em> to get started.</p>
+            <p class="third">You <em>know</em> you want to.</p>
+        </div>
+        <div class="form-container">
+            <p class="legend">Let's do this!</p>
+            <form>
+                <div class="inputs">
+                    <div class="row">
+                        <div class="column">
+                            <label for="firstname">First Name</label>
+                            <input type="text" title="firstname" required />
+                        </div>
+                        <div class="column">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" title="lastname" required />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <label for="email">Email</label>
+                            <input type="email" title="email" />
+                        </div>
+                        <div class="column">
+                            <label for="phone">Phone Number</label>
+                            <input type="text" title="phone" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <label for="password">Password</label>
+                            <input type="password" title="password" id="password" class="error" required />
+                        </div>
+                        <div class="column">
+                            <label for="confirm_password">Confirm Password</label>
+                            <input type="password" title="confirm_password" id="confirm_password" class="error" required />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="bottom-container">
+            <button type="submit" class="create-acc-btn">Create Account</button>
+            <p>Already have an account? <a href="#">Log In</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
